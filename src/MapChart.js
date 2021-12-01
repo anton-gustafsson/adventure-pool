@@ -72,7 +72,7 @@ class MapChart extends React.Component {
                     ))
                 }
               </Geographies>
-              {this.state.markers.map(({ id: id, coordinates, isActive }) => (
+              {this.state.markers.map(({ id, coordinates, isActive }) => (
                 <Marker key={id} coordinates={coordinates}>
                   <circle r={12} fill="white" stroke={isActive ? 'green' : 'red'} strokeWidth={2} />
                   <text
