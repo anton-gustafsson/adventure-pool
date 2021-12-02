@@ -3,8 +3,7 @@ import {
   ComposableMap,
   Geographies,
   Geography,
-  Marker,
-  ZoomableGroup
+  Marker
 } from "react-simple-maps";
 import { getMarkers } from "./markers";
 
