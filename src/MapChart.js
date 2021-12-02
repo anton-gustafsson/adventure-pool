@@ -58,7 +58,7 @@ class MapChart extends React.Component {
               scale: 3400
             }}
           >
-            <ZoomableGroup zoom={1}>
+            {/* <ZoomableGroup zoom={1}> */}
               <Geographies geography={geoUrl}>
                 {({ geographies }) =>
                   geographies
@@ -85,7 +85,7 @@ class MapChart extends React.Component {
                   </text>
                 </Marker>
               ))}
-            </ZoomableGroup>
+            {/* </ZoomableGroup> */}
 
           </ComposableMap>
 
