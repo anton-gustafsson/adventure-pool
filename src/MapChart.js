@@ -108,7 +108,6 @@ class MapChart extends React.Component {
 
           </div>
         </div>
-
       );
     }
 
